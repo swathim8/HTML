@@ -3,11 +3,12 @@
 :root {
     --primary-color: #c026d3;
     --dark-gray: #6b7280;
-    --off-white:#e5e7eb;
+    --off-white: #e5e7eb;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 
 }
 
@@ -98,8 +99,10 @@ hr {
 }
 
 .hero .hero-heading {
+    text-align: center;
     padding-top: 1rem;
     color: var(--dark-gray);
+    
 }
 
 .hero .hero-heading .heading-inverted {
@@ -107,17 +110,33 @@ hr {
 }
 
 /** sections **/
-.section{
+.section {
     padding: 2rem;
 }
+
 .section h1 {
     text-align: center;
-    
+
 }
 
-.ow{
+.ow {
     background-color: var(--off-white);
 }
 
 /** footer **/
 
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
